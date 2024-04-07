@@ -1,0 +1,20 @@
+#define LED 12
+#define ENABLE_A 27
+#define ENABLE_B 26
+#define IN_1 12
+#define IN_2 14
+#define IN_3 25
+#define IN_4 33
+#define FREQ 5000
+#define CHANNEL 0
+#define RES 8
+#define SENSOR 15
+#define FRONTLIGHT 0
+#define BACKLIGHT 17
+#define BLUELED 4
+#define REDLED 16
+
+void ledHandler(void *arg);
+void comHandler(void *arg);
+void motorHandler(void *arg);
+void sensorHandler(void *arg);
